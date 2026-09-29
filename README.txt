@@ -88,10 +88,11 @@ bottom of this file.
   ".ph { ... }" rule near the top to remove the yellow highlight.
 
 
-5. REPLACE THE PHOTOS
----------------------
-  Every placeholder image shows its own filename. Just upload your real
-  photo into the images folder with EXACTLY the same name (overwrite).
+5. THE PHOTOS
+-------------
+  The site now uses your own photos (placed 29 September 2026). To swap
+  one, upload a new photo into the images folder with EXACTLY the same
+  name (overwrite it).
   Use .jpg, landscape (except team portraits, which are square).
   Keep each photo under ~300 KB so the site loads fast on mobile data -
   shrink them free at  https://squoosh.app  or  https://tinypng.com.
@@ -197,5 +198,6 @@ contact.html:
   [ ] Mon to Fri, 8:00am to 5:00pm
   [ ] Google Map of your location goes here
 
-Also: the 26 placeholder photos in /images, tel: and wa.me links, social links,
+Also: gallery captions (edit them in gallery.html), tel: and wa.me links,
+social links,
 PayPal link, and the map (see sections 4-6).
