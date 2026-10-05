@@ -185,8 +185,6 @@ get-involved.html:
   [ ] 1,000
   [ ] 5,000
   [ ] 50,000
-  [ ] Yes. State your registration type and number, e.g. "We are registered as a ... under ..., registration number ..."
-  [ ] Add how you report back to donors, e.g. annual report or updates after each camp.
 
 gallery.html:
   [ ] Caption: what, where, when   (x12)
@@ -198,6 +196,6 @@ contact.html:
   [ ] Mon to Fri, 8:00am to 5:00pm
   [ ] Google Map of your location goes here
 
-Also: gallery captions (edit them in gallery.html), tel: and wa.me links,
+Also: gallery captions (edit them in gallery.html), tel: and wa.me links,
 social links,
 PayPal link, and the map (see sections 4-6).
