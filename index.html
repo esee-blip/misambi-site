@@ -13,13 +13,13 @@
   <meta property="og:url" content="https://misambimedicalmission.org/">
   <meta property="og:image" content="https://misambimedicalmission.org/images/og-image.jpg">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="theme-color" content="#B4532A">
+  <meta name="theme-color" content="#00813A">
   <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css?v=20261115e">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -29,7 +29,28 @@
     "logo": "https://misambimedicalmission.org/images/apple-touch-icon.png",
     "image": "https://misambimedicalmission.org/images/og-image.jpg",
     "email": "info@misambimedicalmission.org",
+    "telephone": "+254183455983",
     "description": "Free medical camps, health education and follow-up care for underserved communities."
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "Free Community Medical Camp",
+    "description": "Misambi Medical Mission's first free medical camp: consultations, health screening, essential medicines and referrals. Everyone is welcome.",
+    "startDate": "2026-12-12T08:00:00+03:00",
+    "endDate": "2026-12-12T16:00:00+03:00",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "isAccessibleForFree": true,
+    "location": {
+      "@type": "Place",
+      "name": "Got Kamondi Dispensary",
+      "address": { "@type": "PostalAddress", "addressLocality": "Kodieng", "addressRegion": "Homa Bay County", "addressCountry": "KE" },
+      "geo": { "@type": "GeoCoordinates", "latitude": -0.42111, "longitude": 34.91194 }
+    },
+    "organizer": { "@type": "NGO", "name": "Misambi Medical Mission", "url": "https://misambimedicalmission.org/" }
   }
   </script>
 </head>
@@ -40,7 +61,7 @@
 <header class="site-header">
   <div class="wrap header-inner">
     <a class="brand" href="index.html" aria-label="Misambi Medical Mission, home">
-      <svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="#B4532A"/><path d="M27 13h10a2 2 0 0 1 2 2v10h10a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H39v10a2 2 0 0 1-2 2H27a2 2 0 0 1-2-2V39H15a2 2 0 0 1-2-2V27a2 2 0 0 1 2-2h10V15a2 2 0 0 1 2-2z" fill="#FBF6EE"/><path d="M32 38.6c-.5 0-6-3.4-6-7a3.1 3.1 0 0 1 6-1.5 3.1 3.1 0 0 1 6 1.5c0 3.6-5.5 7-6 7z" fill="#D99A2B"/></svg>
+      <img class="brand-mark" src="images/logo-mark.svg" alt="" width="44" height="44">
       <span class="brand-name">Misambi<small>Medical Mission</small></span>
     </a>
     <button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span></button>
@@ -66,7 +87,7 @@
       <h1>Bringing care <em>closer to home</em></h1>
       <p>We take free medical camps, health education and follow-up care to families in Misambi village, Homa Bay County, and across the Nyanza region who live far from a hospital or cannot afford treatment.</p>
       <div class="btn-row">
-        <a class="btn btn-ochre" href="get-involved.html#donate"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg> Support our work</a>
+        <a class="btn btn-lime" href="get-involved.html#donate"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg> Support our work</a>
         <a class="btn btn-light" href="programs.html">See what we do</a>
       </div>
     </div>
@@ -77,31 +98,64 @@
 <section class="section">
   <div class="wrap split">
     <div class="split-media reveal">
-      <img src="images/about-story.jpg" alt="Misambi Medical Mission team during an outreach" width="1200" height="900" loading="lazy">
-      <div class="badge"><strong>2025</strong>Serving our community since</div>
+      <img src="images/about-team-meeting.jpg" alt="Misambi Medical Mission team members meeting in a dispensary pharmacy" width="1500" height="1000" loading="lazy">
+      <div class="badge"><strong>2026</strong>Mission founded</div>
     </div>
     <div class="reveal">
       <span class="eyebrow">Who we are</span>
       <h2>Healthcare with dignity, delivered where people live</h2>
-      <p class="lead">Misambi Medical Mission was started in 2025 by Bishop Ezekiel Oginga of Oriang' VOSH Church in Misambi village, Homa Bay County. It began by caring for members of the congregation and soon grew to serve the wider community around the church.</p>
-      <p>Today a team of doctors, nurses, clinical officers and volunteers travels to villages, schools and churches to see patients, give medicine and teach families how to stay well.</p>
+      <p class="lead">Misambi Medical Mission was founded in 2026 by Rev. Ezekiel Ondiek of Oriang' VOSH Church in Misambi Village, Homa Bay County. What began as a vision to care for members of the congregation will grow into a mission dedicated to improving the health and well-being of the wider community.
+
+Through our planned medical outreach programmes, we hope to bring essential healthcare services closer to people in underserved villages, schools, churches and surrounding communities. We envision building a dedicated team of doctors, nurses, clinical officers and volunteers who will work together to provide compassionate, accessible and affordable healthcare to those in need.</p>
+      <p>Our medical outreach programmes will aim to provide:</p>
       <ul class="check-list">
-        <li>Free consultations and essential medicines</li>
-        <li>Screening for blood pressure, diabetes and eye problems</li>
-        <li>Referrals and follow-up for patients who need more care</li>
+        <li>Free medical consultations and essential medicines to individuals and families who may have limited access to healthcare.</li>
+        <li>Health screenings for conditions such as high blood pressure, diabetes and eye-related problems</li>
+        <li>Medical referrals and follow-up care for patients who require further assessment, treatment or specialised medical attention.</li>
+        <li>Community health education to empower families with knowledge on disease prevention, hygiene, nutrition and healthy living.</li>
       </ul>
       <a class="link-arrow" href="about.html">Read our story</a>
     </div>
   </div>
 </section>
 
-<!-- IMPACT NUMBERS -->
-<section class="stats" aria-label="Our impact">
-  <div class="wrap stats-grid">
-    <div class="stat reveal"><div class="stat-num">2025</div><div class="stat-label">Mission started</div></div>
-    <div class="stat reveal"><div class="stat-num">100</div><div class="stat-label">Patients treated</div></div>
-    <div class="stat reveal"><div class="stat-num">30</div><div class="stat-label">Medical camps held</div></div>
-    <div class="stat reveal"><div class="stat-num">50+</div><div class="stat-label">Volunteers, with more joining</div></div>
+<!-- FIRST MEDICAL CAMP: announcement banner. The countdown reads data-countdown (js/main.js). -->
+<section class="camp-banner" aria-labelledby="camp-title">
+  <div class="wrap camp-inner reveal">
+    <a class="camp-cal" href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=Misambi%20Medical%20Mission%20%E2%80%93%20Free%20Medical%20Camp&amp;dates=20261212T050000Z/20261212T130000Z&amp;details=Our%20first%20free%20community%20medical%20camp%3A%20consultations%2C%20screening%2C%20medicines%20and%20referrals.%20Everyone%20is%20welcome.&amp;location=Got%20Kamondi%20Dispensary%2C%20Kodieng%2C%20Homa%20Bay%20County%2C%20Kenya%20(-0.42111%2C34.91194)" target="_blank" rel="noopener" aria-label="Add 12 December 2026 to Google Calendar">
+      <span class="camp-cal-month">Dec</span>
+      <span class="camp-cal-day">12</span>
+      <span class="camp-cal-year">Sat &middot; 2026</span>
+      <span class="camp-cal-hint">+ Add to calendar</span>
+    </a>
+    <div class="camp-body">
+      <span class="camp-tag"><span class="event-dot" aria-hidden="true"></span>Upcoming &middot; Our first medical camp</span>
+      <h2 id="camp-title">Free Community Medical Camp</h2>
+      <p class="camp-meta">
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg><time datetime="2026-12-12">Saturday, 12 December 2026</time></span>
+        <a class="camp-venue" href="https://www.google.com/maps/dir/?api=1&amp;destination=-0.42111%2C34.91194" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Got Kamondi Dispensary, Kodieng</a>
+      </p>
+      <ul class="camp-services">
+        <li>Free consultations</li><li>Health screening</li><li>Essential medicines</li><li>Referrals</li>
+      </ul>
+      <div class="camp-links">
+        <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=Misambi%20Medical%20Mission%20%E2%80%93%20Free%20Medical%20Camp&amp;dates=20261212T050000Z/20261212T130000Z&amp;details=Our%20first%20free%20community%20medical%20camp%3A%20consultations%2C%20screening%2C%20medicines%20and%20referrals.%20Everyone%20is%20welcome.&amp;location=Got%20Kamondi%20Dispensary%2C%20Kodieng%2C%20Homa%20Bay%20County%2C%20Kenya%20(-0.42111%2C34.91194)" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><line x1="12" y1="14" x2="12" y2="18"/><line x1="10" y1="16" x2="14" y2="16"/></svg>Google Calendar</a>
+        <a href="misambi-first-camp.ics" download><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>Save to phone calendar</a>
+        <a href="https://www.google.com/maps/dir/?api=1&amp;destination=-0.42111%2C34.91194" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>Get directions</a>
+      </div>
+    </div>
+    <div class="camp-side">
+      <div class="countdown" data-countdown="2026-12-12T08:00:00+03:00" data-countdown-end="2026-12-12T16:00:00+03:00" role="timer" aria-label="Time until the camp">
+        <div><strong data-cd="d">--</strong><span>Days</span></div>
+        <div><strong data-cd="h">--</strong><span>Hrs</span></div>
+        <div><strong data-cd="m">--</strong><span>Min</span></div>
+        <div><strong data-cd="s">--</strong><span>Sec</span></div>
+      </div>
+      <div class="camp-actions">
+        <a class="btn btn-lime" href="get-involved.html#volunteer">Volunteer</a>
+        <a class="btn btn-light" href="get-involved.html#donate">Support the camp</a>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -110,8 +164,12 @@
   <div class="wrap">
     <div class="section-head center reveal">
       <span class="eyebrow">What we do</span>
-      <h2>Care that meets people where they are</h2>
-      <p class="lead">From one-day medical camps to long-term follow-up, our programs close the gap between families and the care they need.</p>
+      <h2>Our First Medical Outreach</h2>
+      <p class="lead">On 12th December 2026, Misambi Medical Mission will take an important step towards our vision by organising a community medical camp in Got Kamondi Dispensary, Rachuonyo East Sub-county,Homa Bay County.
+
+This outreach will mark the beginning of our commitment to bringing healthcare closer to the community, reaching those who need it most and building a healthier future for everyone.
+
+Our long-term hope is to establish a sustainable medical outreach programme that will continue serving communities through compassion, service and the belief that everyone deserves access to quality healthcare.</p>
     </div>
     <div class="card-grid">
       <a class="card reveal" href="programs.html#camps">
@@ -145,15 +203,16 @@
   </div>
 </section>
 
-<!-- TESTIMONIAL — sample quote; replace with a real elder's words and name (with permission) before launch -->
+<!-- TESTIMONIAL: hidden until after our first camp. Add a real quote (with permission), then remove this comment wrapper.
 <section class="section section-forest">
   <div class="wrap">
     <figure class="quote reveal">
-      <blockquote>For many years our old people suffered quietly because the hospital was too far and too costly. Now the doctors come to us, under our own trees, and treat us with respect. Kadongo has seen what this mission is doing, and we pray it reaches every village.</blockquote>
+      <blockquote>   HIDE.........For many years our old people suffered quietly because the hospital was too far and too costly. Now the doctors come to us, under our own trees, and treat us with respect. Kadongo has seen what this mission is doing, and we pray it reaches every village.</blockquote>#
       <figcaption>Mzee Joseph Ouma, Village Elder, Kadongo</figcaption>
     </figure>
   </div>
 </section>
+-->
 
 <!-- WAYS TO HELP -->
 <section class="section">
@@ -167,7 +226,7 @@
       <div class="icon-card reveal">
         <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 12 20 22 4 22 4 12"/><rect x="2" y="7" width="20" height="5"/><line x1="12" y1="22" x2="12" y2="7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg></div>
         <h3>Give</h3>
-        <p>Your gift buys medicines, supplies and transport for our medical teams. Give easily through M-Pesa or bank transfer.</p>
+        <p>Your gift buys medicines, supplies and transport for our medical teams. Give easily through M-Pesa.</p>
         <p style="margin-top:16px"><a class="link-arrow" href="get-involved.html#donate">Donate now</a></p>
       </div>
       <div class="icon-card reveal">
@@ -212,7 +271,7 @@
     <h2>Help us reach the next village</h2>
     <p>A single medical camp can serve hundreds of people in one day. Your support makes the next one possible.</p>
     <div class="btn-row">
-      <a class="btn btn-ochre" href="get-involved.html#donate">Donate</a>
+      <a class="btn btn-lime" href="get-involved.html#donate">Donate</a>
       <a class="btn btn-light" href="contact.html">Talk to us</a>
     </div>
   </div>
@@ -225,14 +284,14 @@
     <div class="footer-grid">
       <div>
         <a class="brand" href="index.html" aria-label="Misambi Medical Mission, home">
-          <svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="#B4532A"/><path d="M27 13h10a2 2 0 0 1 2 2v10h10a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H39v10a2 2 0 0 1-2 2H27a2 2 0 0 1-2-2V39H15a2 2 0 0 1-2-2V27a2 2 0 0 1 2-2h10V15a2 2 0 0 1 2-2z" fill="#FBF6EE"/><path d="M32 38.6c-.5 0-6-3.4-6-7a3.1 3.1 0 0 1 6-1.5 3.1 3.1 0 0 1 6 1.5c0 3.6-5.5 7-6 7z" fill="#D99A2B"/></svg>
+          <img class="brand-mark" src="images/logo-mark.svg" alt="" width="44" height="44">
           <span class="brand-name">Misambi<small>Medical Mission</small></span>
         </a>
         <p>Free and affordable healthcare for families in Homa Bay County, Nyanza region, delivered with compassion and dignity.</p>
         <div class="socials">
           <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
           <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
-          <a href="https://wa.me/254723782370" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg></a>
+          <a href="https://wa.me/254183455983" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg></a>
         </div>
       </div>
       <div>
@@ -256,7 +315,7 @@
       <div>
         <h4>Contact</h4>
         <ul>
-          <li><a href="tel:+254723782370">+254 723 782 370</a></li>
+          <li><a href="tel:+254183455983">+254 183 455 983</a></li>
           <li><a href="mailto:info@misambimedicalmission.org">info@misambimedicalmission.org</a></li>
           <li>Misambi Town, Homa Bay County</li>
         </ul>
@@ -269,6 +328,6 @@
   </div>
 </footer>
 
-<script src="js/main.js"></script>
+<script src="js/main.js?v=20261115e"></script>
 </body>
 </html>

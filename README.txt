@@ -7,15 +7,17 @@ WHAT'S IN THIS FOLDER
   index.html          Home page
   about.html          About: story, mission & vision, values, team, partners
   programs.html       Programs, "a day at a camp", upcoming camps
-  get-involved.html   Donate (M-Pesa / bank / card), volunteer, partner, FAQ
-  gallery.html        Photo gallery with filters and a pop-up viewer
+  get-involved.html   Donate (M-Pesa Send Money / card), volunteer, partner, FAQ
+  gallery.html        Photo gallery, organised by date, with a full-screen viewer
   contact.html        Contact details, message form, map
   404.html            "Page not found" page
   send.php            Sends the contact form to your email
   .htaccess           Server settings (404 page, HTTPS switch, caching)
   robots.txt, sitemap.xml   Help Google find the site
   css/style.css       All colours, fonts and layout
-  js/main.js          Menu, gallery, copy buttons, form messages
+  js/main.js          Menu, copy buttons, form messages
+  js/gallery.js       The gallery page (do not edit)
+  js/gallery-data.js  List of gallery photos (made by the gallery tool)
   images/             All photos (currently labelled placeholders)
 
 Anything shown with a light yellow highlight and [square brackets] on the
@@ -104,13 +106,23 @@ bottom of this file.
     program-*.jpg       One per program (camps, mobile, maternal,
                         screening, education, referrals)
     team-1..4.jpg       Square portraits, About page
-    gallery-01..12.jpg  Gallery page (01-04 also appear on Home)
+    gallery-01..04.jpg  Home page photo strip
+    gallery-11.jpg      Contact page banner
+    gallery/            Gallery page photos (made by the gallery tool)
     og-image.jpg        Preview picture when the site is shared on
                         WhatsApp/Facebook (already designed, keep it)
 
-  To add more gallery photos: in gallery.html copy one <figure ...> line,
-  change the image name, the caption and data-cat (outreach, clinic,
-  community or education).
+  To add more gallery photos:
+    1. Copy the new photos into the "Misambi Files" folder on the Desktop
+       (make a new sub-folder for each event, e.g. "12th December").
+    2. Open a terminal in the website folder and run:
+         python tools/build_gallery.py "C:/Users/USER/OneDrive/Desktop/Misambi Files"
+       (first time only, run:  pip install Pillow)
+    3. Upload gallery.html, js/gallery-data.js and the new files in
+       images/gallery/thumb and images/gallery/full.
+  Photos are sorted by the date the camera recorded, automatically.
+  To add captions, choose the 4 featured photos, or give a date a title,
+  edit tools/gallery-config.json and run step 2 again.
 
   To show partner logos: in about.html replace each
   <div class="partner">...</div> with
@@ -187,7 +199,8 @@ get-involved.html:
   [ ] 50,000
 
 gallery.html:
-  [ ] Caption: what, where, when   (x12)
+  [ ] Captions for the November photos (optional, in tools/gallery-config.json)
+  [ ] Check the titles given to each date (tools/gallery-config.json)
 
 contact.html:
   [ ] two working days
@@ -196,6 +209,6 @@ contact.html:
   [ ] Mon to Fri, 8:00am to 5:00pm
   [ ] Google Map of your location goes here
 
-Also: gallery captions (edit them in gallery.html), tel: and wa.me links,
+Also: gallery captions (tools/gallery-config.json), tel: and wa.me links,
 social links,
 PayPal link, and the map (see sections 4-6).

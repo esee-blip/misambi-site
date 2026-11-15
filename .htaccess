@@ -14,6 +14,9 @@ Options -Indexes
 # RewriteCond %{HTTPS} off
 # RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [L,R=301]
 
+# Calendar file for the camp banner
+AddType text/calendar .ics
+
 # Cache images, CSS and JS for faster repeat visits
 <IfModule mod_expires.c>
   ExpiresActive On

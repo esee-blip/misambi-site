@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Misambi Medical Mission//Camp//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:first-camp-20261212@misambimedicalmission.org
+DTSTAMP:20261115T000000Z
+DTSTART:20261212T050000Z
+DTEND:20261212T130000Z
+SUMMARY:Misambi Medical Mission - Free Medical Camp
+DESCRIPTION:Our first free community medical camp: consultations\, screening\, medicines and referrals. Everyone is welcome.
+LOCATION:Got Kamondi Dispensary\, Kodieng\, Homa Bay County\, Kenya
+GEO:-0.42111;34.91194
+URL:https://misambimedicalmission.org/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Misambi medical camp is tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR

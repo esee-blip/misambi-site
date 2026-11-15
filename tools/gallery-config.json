@@ -1,0 +1,27 @@
+{
+  "_help": "Edit this file, then run: python tools/build_gallery.py \"<photos folder>\". Use the ORIGINAL file names (e.g. DI0A5140.JPG). 'featured' = the 4 photos shown first (the first one is shown large). 'collections' = an optional title for each date (YYYY-MM-DD).",
+
+  "featured": ["DI0A5040.JPG", "DI0A1336.jpg", "DI0A2088.jpg", "DI0A5140.JPG"],
+
+  "collections": {
+    "2026-09-12": "Visit to Misambi and community gathering",
+    "2026-11-02": "Meetings at the Homa Bay County offices and Got Kamondi Dispensary",
+    "2026-11-07": "Community meeting"
+  },
+
+  "captions": {
+    "DI0A5140.JPG": "The team at Misambi market",
+    "DI0A5157.JPG": "Misambi, the community we serve",
+    "DI0A5147.JPG": "Misambi Junction",
+    "DI0A5139.JPG": "The building project taking shape",
+    "DI0A5131.JPG": "Site walkabout",
+    "DI0A5028.JPG": "Community meeting",
+    "DI0A5033.JPG": "A community gathering",
+    "DI0A5052.JPG": "Address from the founder",
+    "DI0A5048.JPG": "Prayer before the day begins",
+    "DI0A5040.JPG": "Mothers and children at the gathering",
+    "DI0A5118.JPG": "Leaders catch up",
+    "DI0A5108.JPG": "Photo session",
+    "DI0A1303.jpg": "Updating patient records at Got Kamondi Dispensary"
+  }
+}
